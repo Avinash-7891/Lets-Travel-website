@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    font-size: 2.1rem;
+}
+h1 span{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(254, 133, 19);
+}
+header{
+    background: #007BFF;
+    color: #fff;
+    height: 100px;
+    padding: 15px 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 50px;
+    height: 25px;
+}
+nav ul li a{
+    color: rgb(246, 244, 244);
+    text-decoration: none;
+    font-size :larger;
+}
+nav ul li a:hover{
+    opacity: 0.5;
+}
+.hero {
+    background: url('wallpaperflare.com_wallpaper (1).jpg') no-repeat center center/cover;
+    height: 90vh;
+    color: #060903;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hghf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.hero h1 {
+    font-size: 4rem;
+    margin: 10px;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
+}
+.hero h3 {
+    font-size: 1.4rem;
+    color: #fffdfb;
+}
+.mnbv {
+    text-align: left;
+    font-size: larger;
+}
+h3{
+    text-align: left;
+    font-family: sans-serif;
+    font-size:x-large;
+}
+.poi{
+    background: url('pexels-pixabay-47044.jpg');
+    height: 90vh;
+}
+.poi h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.7rem;
+    background: #e0e4dd;
+}
+.qwe h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.qwe h1{
+    background-color: rgb(115, 128, 139);
+}
+.mpqz{
+    background:#fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(115, 128, 139);
+}
+.mpqz h3{
+    color: #007BFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mpqz h4{
+    font-family: cursive;
+}
+.form1 {
+    padding: 50px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+}
+
+.form1 form{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form1 input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form1 textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form1 button {
+    background: #f6d30e;
+    color: #333;
+    height: 40px;
+    border-radius: 10px;
+}
+.form1 h4{
+    font-size: large;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.mpqz img:hover {
+    opacity: 0.5;
+  }
+  
